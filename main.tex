@@ -2,6 +2,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
 \usepackage{anyfontsize}
 \usepackage{mathptmx}
 \usepackage{indentfirst}
@@ -23,16 +24,11 @@
 \usepackage{multicol}
 \usepackage{tikz}
 \usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm]{geometry}
-\usepackage[brazil]{babel}
+\usepackage{varioref}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[nameinlink]{cleveref}
 
 \newcounter{exemplo}[subsection]
-
-\newcounter{exercicio}[subsection]
-
-\newcounter{tempi}[subsection]
-\newcounter{tempii}[subsection]
 
 \newmdtheoremenv{definicao}{Definição}[subsection]
 
@@ -45,6 +41,24 @@
 \newcommand\myrule[1]{\multicolumn{1}{| l}{#1}}
 
 \setlength\parindent{0pt}
+
+%%hyperlinks%%
+%formato: \hyperlabelitem{label}{hyperlink}{item}
+\newcommand{\hyperlabelitem}[3]{
+    \stepcounter{enumi}
+    \label{#1}
+    \item[{\hyperref[#2]{\theenumi}}]#3
+}
+\newcommand{\exitem}[1]{
+    \refstepcounter{enumi}
+    \item[{\hyperref[ans:\theenumi]{\theenumi}}]#1 \label{ex:\theenumi}
+}
+\newcommand{\ansitem}[1]{
+    \refstepcounter{enumi}
+    \item[{\hyperref[ex:\theenumi]{\theenumi}}]#1 \label{ans:\theenumi}
+}
+%\usepackage{showlabels}
+%%hyperlinks%%
 
 \begin{document}
 

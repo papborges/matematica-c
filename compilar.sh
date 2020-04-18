@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
-pdflatex main.tex main.pdf
+pdflatex --jobname=livro main.tex
+pdflatex --jobname=livro main.tex
