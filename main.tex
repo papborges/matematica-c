@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -31,15 +31,16 @@
 \usepackage{float}
 
 \theoremstyle{definition}
-\newtheorem{texemplo}{Exemplo}[subsection]
+\newtheorem{texemplo}{Exemplo}[section]
+\newtheorem{tdefinicao}{Definição}[section]
 
-\newcounter{exemplo}[subsection]
+\newcounter{exemplo}[section]
 
 
-\newmdtheoremenv{definicao}{Definição}[subsection]
+\newmdtheoremenv{definicao}{Definição}[section]
 
 \newlength\widest
-\counterwithin{figure}{subsection}
+\counterwithin{figure}{section}
 
 \renewcommand{\qedsymbol}{\rule{0.7em}{0.7em}}
 \renewcommand{\contentsname}{Sumário}
