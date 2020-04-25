@@ -29,12 +29,23 @@
 \usepackage[nameinlink]{cleveref}
 
 \usepackage{float}
+\usepackage{enumitem}
 
 \theoremstyle{definition}
 \newtheorem{texemplo}{Exemplo}[section]
 \newtheorem{tdefinicao}{Definição}[section]
+\newtheorem{texercicio}{Exercício}[section]
+
+\newcommand{\exercicios}{%
+    \addtocounter{section}{-1}%
+    \section{Exercícios}
+}
+
+\setlist[enumerate,1]{label={(\textbf{\alph*)}}}
+
 
 \newcounter{exemplo}[section]
+
 
 
 \newmdtheoremenv{definicao}{Definição}[section]
