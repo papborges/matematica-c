@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -28,12 +28,30 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[nameinlink]{cleveref}
 
-\newcounter{exemplo}[subsection]
+\usepackage{float}
+\usepackage{enumitem}
 
-\newmdtheoremenv{definicao}{Definição}[subsection]
+\theoremstyle{definition}
+\newtheorem{texemplo}{Exemplo}[section]
+\newtheorem{tdefinicao}{Definição}[section]
+\newtheorem{texercicio}{Exercício}[section]
+
+\newcommand{\exercicios}{%
+    \addtocounter{section}{-1}%
+    \section{Exercícios}
+}
+
+\setlist[enumerate,1]{label={(\textbf{\alph*)}}}
+
+
+\newcounter{exemplo}[section]
+
+
+
+\newmdtheoremenv{definicao}{Definição}[section]
 
 \newlength\widest
-\counterwithin{figure}{subsection}
+\counterwithin{figure}{section}
 
 \renewcommand{\qedsymbol}{\rule{0.7em}{0.7em}}
 \renewcommand{\contentsname}{Sumário}
