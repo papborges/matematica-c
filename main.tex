@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -28,9 +28,11 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[nameinlink]{cleveref}
 
-\newcounter{exemplo}[subsection]
+\newcounter{exemplo}[section]
 
-\newmdtheoremenv{definicao}{Definição}[subsection]
+\theoremstyle{definition}
+\newtheorem{texemplo}{Exemplo}[section]
+\newtheorem{tdefinicao}{Definição}[section]
 
 \newlength\widest
 \counterwithin{figure}{subsection}
@@ -40,7 +42,8 @@
 \renewcommand{\figurename}{Figura}
 \newcommand\myrule[1]{\multicolumn{1}{| l}{#1}}
 
-\setlength\parindent{0pt}
+\setlength\parindent{1em}
+\setlength\parskip{0.5em}
 
 %%hyperlinks%%
 %formato: \hyperlabelitem{label}{hyperlink}{item}
@@ -59,6 +62,51 @@
 }
 %\usepackage{showlabels}
 %%hyperlinks%%
+
+%%envs%%
+\mdfdefinestyle{MyFrame}{%
+    linecolor=black,
+    outerlinewidth=2pt,
+    %roundcorner=20pt,
+    innertopmargin=4pt,
+    innerbottommargin=4pt,
+    innerrightmargin=4pt,
+    innerleftmargin=4pt,
+        leftmargin = 4pt,
+        rightmargin = 4pt
+    %backgroundcolor=gray!50!white}
+}
+
+\newenvironment{exercicios}
+{
+    \noindent\textbf{EXERCÍCIOS \thesection}
+    \begin{enumerate}[label=\thesection.\arabic*]
+}
+{
+    \end{enumerate}
+}
+
+\newenvironment{respostas}[1]
+{
+    \noindent\textbf{RESPOSTAS \thechapter.#1}
+    \begin{enumerate}[label=\thechapter.#1.\arabic*]
+}
+{
+    \end{enumerate}
+}
+
+\newenvironment{caixa}
+{
+    \begin{mdframed}[style=MyFrame,nobreak=true]
+    \begin{center}
+}
+{
+    \end{center}
+    \end{mdframed}
+}
+
+
+%%envs%%
 
 \begin{document}
 
@@ -81,5 +129,7 @@
 \include{capitulos/logaritmos_e_funcao_logaritmica/logaritmos_e_funcao_logaritmica}
 
 \include{capitulos/trigonometria_e_funcoes_trigonometricas/trigonometria_e_funcoes_trigonometricas}
+
+\include{capitulos/outras_funcoes/outras_funcoes}
 
 \end{document}
