@@ -28,11 +28,14 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[nameinlink]{cleveref}
 
-\newcounter{exemplo}[section]
+%%capa%%
+\title{\includegraphics[scale=1]{recursos/logo_uffs.pdf}\\ Livro Matemática C}
+\author{Pedro Borges}
+\date{MARÇO/2015}
+%%capa%%
 
+%%definições
 \theoremstyle{definition}
-\newtheorem{texemplo}{Exemplo}[section]
-\newtheorem{tdefinicao}{Definição}[section]
 
 \newlength\widest
 \counterwithin{figure}{subsection}
@@ -44,14 +47,9 @@
 
 \setlength\parindent{1em}
 \setlength\parskip{0.5em}
+%%definições
 
 %%hyperlinks%%
-%formato: \hyperlabelitem{label}{hyperlink}{item}
-\newcommand{\hyperlabelitem}[3]{
-    \stepcounter{enumi}
-    \label{#1}
-    \item[{\hyperref[#2]{\theenumi}}]#3
-}
 \newcommand{\exitem}[1]{
     \refstepcounter{enumi}
     \item[{\hyperref[ans:\theenumi]{\theenumi}}]#1 \label{ex:\theenumi}
@@ -64,6 +62,29 @@
 %%hyperlinks%%
 
 %%envs%%
+\newtheorem{texemplo}{Exemplo}[section]
+\newtheorem{tdefinicao}{Definição}[section]
+
+\newcounter{eqcnt}[chapter]
+\newcommand{\equacao}[1]{
+    \stepcounter{eqcnt}
+    \begin{multicols}{2}
+    #1
+    
+    (\thechapter.\theeqcnt) \label{eqc:\thechapter.\theeqcnt}
+    \end{multicols}
+}
+
+%\newenvironment{equacao}
+%{
+%\stepcounter{eqcnt}
+%\begin{multicols}{2}
+%}
+%{
+%(\theeqcnt)
+%\end{multicols}
+%}
+
 \mdfdefinestyle{MyFrame}{%
     linecolor=black,
     outerlinewidth=2pt,
@@ -109,6 +130,11 @@
 %%envs%%
 
 \begin{document}
+
+\maketitle
+
+\tableofcontents
+\clearpage
 
 \include{capitulos/conjuntos_numericos/conjuntos_numericos}
 
