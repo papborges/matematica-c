@@ -11,7 +11,7 @@ while True :
         page = doc.loadPage(i-1) #number of page
         pix = page.getPixmap()
         output = f"paginas_png/pagina{i}.png"
-        md.write(f"[![Página {i}]({output})](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)\n")
+        md.write(f"[![Página {i}]({output})](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)\n---\n")
         pix.writePNG(output)
     except :
         break
