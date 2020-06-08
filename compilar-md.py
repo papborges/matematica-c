@@ -1,3 +1,5 @@
+#!/usr/bin/env pipenv-shebang
+
 import fitz
 pdffile = "livro.pdf"
 doc = fitz.open(pdffile)
