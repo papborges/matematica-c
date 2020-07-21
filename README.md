@@ -310,3 +310,77 @@
 ---
 [![Página 155](paginas_png/pagina155.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
 ---
+[![Página 156](paginas_png/pagina156.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 157](paginas_png/pagina157.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 158](paginas_png/pagina158.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 159](paginas_png/pagina159.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 160](paginas_png/pagina160.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 161](paginas_png/pagina161.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 162](paginas_png/pagina162.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 163](paginas_png/pagina163.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 164](paginas_png/pagina164.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 165](paginas_png/pagina165.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 166](paginas_png/pagina166.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 167](paginas_png/pagina167.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 168](paginas_png/pagina168.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 169](paginas_png/pagina169.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 170](paginas_png/pagina170.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 171](paginas_png/pagina171.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 172](paginas_png/pagina172.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 173](paginas_png/pagina173.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 174](paginas_png/pagina174.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 175](paginas_png/pagina175.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 176](paginas_png/pagina176.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 177](paginas_png/pagina177.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 178](paginas_png/pagina178.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 179](paginas_png/pagina179.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 180](paginas_png/pagina180.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 181](paginas_png/pagina181.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 182](paginas_png/pagina182.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 183](paginas_png/pagina183.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 184](paginas_png/pagina184.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 185](paginas_png/pagina185.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 186](paginas_png/pagina186.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 187](paginas_png/pagina187.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 188](paginas_png/pagina188.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 189](paginas_png/pagina189.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 190](paginas_png/pagina190.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 191](paginas_png/pagina191.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 192](paginas_png/pagina192.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
