@@ -274,3 +274,39 @@
 ---
 [![Página 137](paginas_png/pagina137.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
 ---
+[![Página 138](paginas_png/pagina138.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 139](paginas_png/pagina139.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 140](paginas_png/pagina140.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 141](paginas_png/pagina141.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 142](paginas_png/pagina142.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 143](paginas_png/pagina143.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 144](paginas_png/pagina144.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 145](paginas_png/pagina145.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 146](paginas_png/pagina146.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 147](paginas_png/pagina147.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 148](paginas_png/pagina148.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 149](paginas_png/pagina149.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 150](paginas_png/pagina150.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 151](paginas_png/pagina151.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 152](paginas_png/pagina152.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 153](paginas_png/pagina153.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 154](paginas_png/pagina154.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
+[![Página 155](paginas_png/pagina155.png)](https://github.com/papborges/MATEMATICA_C/raw/master/livro.pdf)
+---
