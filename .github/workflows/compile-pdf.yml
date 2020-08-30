@@ -8,18 +8,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Run LaTeX compiler
-        uses: xu-cheng/latex-action@v2
-          with:
-            root_file: main.tex
-            latexmk_shell_escape: true
-      - name: Upload to git
-        run: |
-          mv main.pdf livro.pdf
-          git config --local user.name "Github Actions"
-          git config --local user.email actions@github.com
-          git add livro.pdf
-          git diff-index --quiet HEAD || git commit -m "Compile PDF" --quiet
-          remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git push "${remote_repo}" --quiet
+    - uses: actions/checkout@v2
+    - name: Run LaTeX compiler
+      uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main.tex
+          latexmk_shell_escape: true
+    - name: Upload to git
+      run: |
+        mv main.pdf livro.pdf
+        git config --local user.name "Github Actions"
+        git config --local user.email actions@github.com
+        git add livro.pdf
+        git diff-index --quiet HEAD || git commit -m "Compile PDF" --quiet
+        remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git push "${remote_repo}" --quiet
