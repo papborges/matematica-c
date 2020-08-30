@@ -1,7 +1,9 @@
 name: PDF To Markdown
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Compile PDF"]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
