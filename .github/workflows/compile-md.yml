@@ -3,7 +3,7 @@ name: PDF To Markdown
 on:
   workflow_run:
     workflows: ["Compile PDF"]
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 jobs:
