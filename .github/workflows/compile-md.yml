@@ -25,7 +25,8 @@ jobs:
       with:
         pdf_input: livro.pdf
         output_folder: paginas_png
-        source_md: README.md
-        output_md: README.md
+        source_md: docs/index.md
+        output_md: docs/index.md
+        root_folder: docs/
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
