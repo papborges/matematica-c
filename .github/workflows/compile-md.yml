@@ -28,5 +28,6 @@ jobs:
         source_md: docs/index.md
         output_md: docs/index.md
         root_folder: docs/
+        line_end: \n
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
