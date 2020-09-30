@@ -16,10 +16,10 @@ jobs:
         latexmk_shell_escape: true
     - name: Upload to git
       run: |
-        mv main.pdf livro.pdf
+        mv main.pdf docs/livro.pdf
         git config --local user.name "Github Actions"
         git config --local user.email actions@github.com
-        git add livro.pdf
+        git add docs/livro.pdf
         git diff-index --quiet HEAD || git commit -m "Compile PDF" --quiet
         remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         git push "${remote_repo}" --quiet
