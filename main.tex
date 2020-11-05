@@ -15,7 +15,6 @@
 \usepackage{amsmath}
 \usepackage{amsthm,amssymb}
 \usepackage{xparse}
-\usepackage{pdfpages}
 \usepackage{xcolor}
 \usepackage{color, soul}
 \usepackage{amsthm}
@@ -27,18 +26,13 @@
 \usepackage{tikz}
 \usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm]{geometry}
 \usepackage{varioref}
-\usepackage[
-    pdfusetitle,
-    pdfsubject={Funções elementares},
-    pdfkeywords={Matematica Funcoes Elementares},
-]{hyperref}
-\usepackage{bookmark}
+\usepackage[colorlinks=true]{hyperref}
 \usepackage[nameinlink]{cleveref}
 
-%%metadados%%
-\title{MATEMÁTICA: Funções elementares}
-\author{Pedro Augusto Pereira Borges (Coord.)}
-\date{\now}
+%%capa%%
+\title{Livro Matemática C}
+\author{Pedro Borges}
+\date{MARÇO/2015}
 %%capa%%
 
 %%definições
@@ -126,11 +120,7 @@
 
 \begin{document}
 
-\begin{titlepage}
-    \includepdf[pages=-]{recursos/capa.pdf}
-\end{titlepage}
-
-\include{recursos/apresentacao}
+\maketitle
 
 \tableofcontents
 \clearpage
