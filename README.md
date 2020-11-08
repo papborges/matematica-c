@@ -1,5 +1,5 @@
 [![Download](https://img.shields.io/badge/Download-Clique%20aqui-blue.svg)](https://github.com/papborges/matematica-c/raw/master/docs/livro.pdf)
-[![Website](https://img.shields.io/badge/Website-Clique%20aqui-blue.svg)](https://github.com/papborges/matematica-c/raw/master/docs/livro.pdf)
+[![Website](https://img.shields.io/badge/Website-Clique%20aqui-blue.svg)](https://papborges.github.io/matematica-c)
 
 # MATEMÁTICA: Funções elementares ([Download](https://github.com/papborges/matematica-c/raw/master/docs/livro.pdf))
 
