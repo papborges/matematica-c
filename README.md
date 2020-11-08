@@ -1,6 +1,7 @@
 [![Download](https://img.shields.io/badge/Download-Clique%20aqui-blue.svg)](https://github.com/papborges/matematica-c/raw/master/docs/livro.pdf)
+[![Website](https://img.shields.io/badge/Website-Clique%20aqui-blue.svg)](https://github.com/papborges/matematica-c/raw/master/docs/livro.pdf)
 
-# MATEMÁTICA: Funções elementares
+# MATEMÁTICA: Funções elementares ([Download](https://github.com/papborges/matematica-c/raw/master/docs/livro.pdf))
 
 O problema da significativa reprovação em Cálculo Diferencial e Integral levou
 as universidades brasileiras a ofertar uma disciplina introdutória (Matemática C, na
